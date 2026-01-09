@@ -263,3 +263,92 @@
   line-height: 1.5;
   margin: 0;
 }
+
+
+
+
+.second-brain-section {
+  padding: 120px;
+  width: 1600px;
+  height: 840px;
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif; /* High-quality sans-serif */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1600px;
+  margin: 0 auto;
+  gap: 60px;
+  padding: 120px;
+}
+
+/* --- Text Styling --- */
+.text-side { flex: 1; }
+
+.eyebrow {
+  color: #2d9d78; /* Green text */
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.text-side h1 {
+  color: #0b1a30;
+  font-size: 3rem;
+  margin: 15px 0;
+  line-height: 1.1;
+}
+
+.text-side p {
+  color: #6b7280;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Custom Checkmark List */
+.feature-list { list-style: none; padding: 0; }
+
+.feature-list li {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 15px;
+  color: #0b1a30;
+  font-weight: 500;
+}
+
+.feature-list li::before {
+  content: '✔';
+  position: absolute;
+  left: 0;
+  background: #4ade80; /* Light green circle */
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+/* --- Graphic Styling (Circular Layout) --- */
+.graphic-side { flex: 1; display: flex; justify-content: center; }
+
+.graphic-wrapper {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background: #f9fafb; /* Light grey box background */
+  border-radius: 12px;
+}
+
+.central-node {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
