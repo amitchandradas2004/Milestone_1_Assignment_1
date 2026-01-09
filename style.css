@@ -399,7 +399,6 @@
   margin-bottom: 40px;
 }
 
-/* The Green Button */
 .cta-button {
   display: inline-flex;
   align-items: center;
@@ -430,7 +429,7 @@
   font-size: 0.95rem;
 }
 
-/* Responsiveness for 100% zoom on mobile */
+
 @media (max-width: 600px) {
   .cta-card {
     padding: 40px 20px;
@@ -440,4 +439,88 @@
     width: 100%;
     justify-content: center;
   }
+}
+.main-footer {
+    background-color: #001a33; 
+    color: #ffffff;
+    padding: 60px 20px 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    gap: 40px;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-wrapper img {
+    width: 50px;
+    height: auto;
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-name {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #4f966e; 
+    line-height: 1;
+}
+
+.brand-tagline {
+    font-size: 0.75rem;
+    color: #8b949e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-socials h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a img {
+    width: 24px;
+    filter: brightness(0) invert(1); 
+    transition: opacity 0.3s;
+}
+
+.social-icons a:hover img {
+    opacity: 0.7;
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 40px auto 0;
+    text-align: center;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 25px;
+}
+
+.footer-bottom p {
+    color: #8b949e;
+    font-size: 0.9rem;
 }
